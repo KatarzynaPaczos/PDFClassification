@@ -1,17 +1,12 @@
 # AI Assignment
 
-Hi there 👋,
+Hi,
+This is my solution for the take home assignment for Filed's AI engineer position.
 
-This is the take home assignment for Filed's AI engineer position. 
-We recommend spending no more than 5–6 hours on it — we're not looking for perfection, but rather how you think and approach problems.
+This project is a FastAPI application that automatically classifies PDF documents (e.g., tax forms like 1040, W2, ID cards) and detects whether the content blongs to one of the class:
+`["1040", "W2", "1099", "ID Card", "Handwritten note", "OTHER"]`
+ It uses text extraction (via fitz and OCR) and visual models (such as CLIP Hugging Face) to analyze and categorize documents.
 
-You can clone this repository into your github account and then complete it.
-
-There is no set time to complete the assignment, but faster you complete higher the chances that the position is not filled by someone else. 
-
-Once you're done, just reply back to the email you received with the link to your completed github repo and we'll get back to you shortly after.
-
-PS: If its a private repo - please add atul@filed.com as the outside collaborator
 
 
 ## Prerequisites
